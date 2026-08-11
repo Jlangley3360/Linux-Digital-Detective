@@ -70,7 +70,7 @@ sudo journalctl -u ssh --no-pager | grep -E "Failed password|Accepted password"
 
 ### Authentication Evidence
 
-![SSH Authentication Logs](screenshots/01-ssh-authentication-logs.png)
+![SSH Authentication Logs](01-ssh-authentication-logs.png)
 
 The logs show both failed and successful SSH authentication events, including the username, source address, source port, timestamp, and SSH session information.
 
@@ -147,7 +147,7 @@ The resulting analysis identified:
 
 ### Failed Login Analysis
 
-![Failed Login Analysis](screenshots/02-failed-login-analysis.png)
+![Failed Login Analysis](02-failed-login-analysis.png)
 
 ---
 
@@ -248,7 +248,7 @@ Aug 11 17:57:58 ... Accepted password for joshua from ::1 ...
 
 ### Final Digital Detective Report
 
-![Linux Digital Detective Report](screenshots/03-digital-detective-report.png)
+![Linux Digital Detective Report](03-digital-detective-report.png)
 
 ---
 
